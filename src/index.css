@@ -1,0 +1,19 @@
+*{
+  margin: 0px;
+  transition: all 1s;
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg{
+  transform: rotate(45deg);
+}
+
+svg:hover{
+  transform: rotate(90deg);
+}
